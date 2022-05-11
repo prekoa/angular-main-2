@@ -111,6 +111,20 @@
           }
         }
       }
+    },
+    "custom_lib": {
+      "root": "custom_lib",
+      "sourceRoot": "custom_lib/src",
+      "projectType": "library",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "custom_lib/tsconfig.json",
+            "project": "custom_lib/ng-package.json"
+          }
+        }
+      }
     }
   },
   "defaultProject": "angular-main-2"
