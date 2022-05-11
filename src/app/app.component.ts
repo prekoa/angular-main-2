@@ -16,5 +16,5 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  title = 'angular-main-2asd';
+  title = 'angular-main-2';
 }
